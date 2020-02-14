@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 400px;
+  position: relative;
+  padding-left:10px;
+ 
+}
+
+.searchTerm {
+  width: 390px;
+  border: 3px solid lightblue;
+  padding: 10px;
+  height: 20px;
+  border-radius: 25px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#persons {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#persons td, #persons th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#persons tr:nth-child(even){background-color: #f2f2f2;}
+
+#persons tr:hover {background-color: #ddd;}
+
+#persons th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+.App {
+  text-align: center;
+}
+.table 
+{
+  padding-top: 15px;
+  overflow-x:auto;
+}
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
